@@ -1,0 +1,706 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    padding: 10px 15px 10px 20px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color:rgb(139, 141, 143);
+    z-index: 1000;
+}
+
+.logo, .tabs, .buttton{
+    display: flex;
+}
+ .logo{  
+    padding-right:320px ;
+}
+
+.tabs, .button{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.tabs{
+    padding-left: 160px;
+}
+.tabs a{
+    padding-right: 20px;
+    padding-left: 4px;
+}
+.tabs a, .tabs select, .button a { 
+    color: black;
+    font-size: 20px;
+    margin: 9px;
+    padding-top: 10px;
+    text-decoration: none;  
+}
+
+.tabs a:hover{
+    color: rgb(24, 23, 23);
+    font-size: 15px;
+}
+.tabs select{
+    background-color:rgb(139, 141, 143) ;
+    border: none;
+    padding-right: 7px;
+    padding: 10px;
+}
+.tabs select:hover{
+    font-size:15px;
+}
+.button{
+    padding-left: 320px;
+}
+.button button{
+    padding: 20px;
+    background-color: rgb(42, 42, 238);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main{
+    padding: 150px;
+    display: flex;
+}
+.content{
+    padding-top: 150px;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.content h1 span{
+    background-color: yellow;
+}
+.content p{
+    font-size:20px ;
+}
+.but{
+    padding: 15px 40px 15px 40px;
+    background-color:rgb(42, 42, 238);
+    font-size: 20px;
+}
+.inti{
+    margin-top: 30px;
+}
+.but-int{
+    padding: 15px 40px 15px 40px;
+    font-size: 20px;
+}
+.inti input{
+    border-left:2px solid blue ;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-right: none;
+}
+.image img{
+    height: 600px;
+}
+.list{
+ display: flex;
+ padding-top: 20px;
+}
+.list ul{
+    display: flex;
+   
+}
+.list ul li{
+     padding-right: 40px;
+     font-size: 20px;
+}
+.list p{
+    padding-right: 40px;
+}
+.fonts{
+    padding: 30px;
+    color: rgb(130, 132, 133);
+}
+.fonts p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.icons .ico{
+    padding-top: 10px;
+    padding-right: 80px;
+}
+.container{
+    padding: 90px 100px 50px 100px;
+    display: flex;
+}
+.talk{
+    padding: 40px;
+}
+.list2{
+    font-size: 30px;
+}
+.talk h1{
+    padding-bottom: 30px;
+    font-size:41px;
+}
+.list2 ul li{
+    padding-bottom: 42px;
+}
+.list2 ul li i{
+    background-color: rgb(130, 132, 133);
+    border-radius: 10px;
+    padding: 3px;
+    color: white;
+}
+.list2 ul .blue{
+    color: blue;
+}
+.list2 ul .blue li i{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 3px;
+    color: white;
+}
+.box{
+    background-color: #EEF1F7;
+    padding: 70px 50px 70px 50px;
+}
+.box h1{
+    font-size: 2em;
+    padding-left: 500px;
+    padding-bottom: 20px;
+}
+.box h1 span{
+   background-color: yellow;
+}
+.box p{
+    padding-left: 430px;
+}
+.apps{
+    display: flex;
+    margin: 30px 200px 50px 300px;
+
+}
+.mini-box{
+    background-color: antiquewhite;
+    padding: 20px 30px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-right: 50px;
+}
+.mini-box p{
+    padding: 0;
+}
+.mini-box img{
+    width: 50px;
+    height: 50px;
+}
+.page{
+    padding: 100px 100px 100px 100px;
+}
+.page h1{
+    padding-bottom: 10px;
+    padding-left: 550px;
+}
+.page h1 span{
+    background-color: yellow;
+}
+.cards{
+    display: flex;
+    padding-left: 300px;
+}
+.card{
+    background-color: #EEF1F7;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.card h2{
+    padding-bottom: 10px;
+}
+.card h3{
+    padding-bottom: 5px;
+}
+.clovin h2{
+    padding: 20px 450px 5px 650px;
+}
+.clovin p{
+    padding: 20px 550px 5px 600px;  
+}
+.clovin-pic{
+    display:flex;
+}
+.clovin-pic img{
+    padding-left: 600px;
+}
+.clovin-pic h3{
+    padding: 30px 2px 4px 2px;
+}
+.platform{
+    background-color:#EEF1F7;
+    margin: 200px;
+    padding: 100px;
+    display: flex;
+}
+.work{
+    padding-right: 50px;
+}
+.work h1{
+    font-size: 3em;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.work p{
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.work ul li{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.hug{
+    background-color: #111827;
+    color: white;
+    padding: 50px 80px 50px 80px;
+}
+.hug h1{
+    padding: 10px 400px 10px 570px;
+    font-size: 3em;
+}
+.hug p{
+    padding: 2px 400px 10px 360px;
+}
+.hug button{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    margin:60px 10px 20px 670px;
+    font-size: 20px;
+    
+}
+.pops{
+    padding-left:10px;
+}
+
+.webs{
+    display: flex;
+    flex-direction: column;
+    padding-left: 130px;
+}
+.webs img{
+    width: 150px;
+    height: 90px;
+}
+ 
+.miss{
+    background-color: #EEF1F7;
+    padding: 50px;
+    display: flex;
+}
+.features{
+    padding: 40px 150px 40px 150px;
+}
+.features h1{
+    font-weight: 50px;
+    font-size: 3em;
+    padding-left: 400px;
+}
+.mike{
+    display: flex;
+    padding: 2px 100px 2px 200px;
+}
+
+.miki{
+    margin:10px;
+    border: 1px solid rgb(139, 141, 143);
+    padding: 20px;
+    border-radius: 10px;
+}
+.miki h4{
+    padding-bottom: 4px;
+}
+.miki img{
+    padding-bottom: 4px;
+}
+.story{
+    display: flex;
+    padding: 10px;
+    margin:20px 200px 20px 200px;
+    background-color: #111827;
+    color: white;
+    border-radius: 10px;
+}
+.first{
+    padding: 100px 60px 100px 20px;
+}
+.first h1{
+    font-size: 2.5em;
+    padding-bottom: 30px;
+}
+.first p{
+    font-size: 20px;
+}
+.first h4{
+    padding-top: 10px;
+}
+.picture img{
+   padding: 30px 5px 10px 5px; 
+}
+.solid{
+   padding: 100px 100px 50px 100px;
+}
+.solid h1{
+    padding-left: 450px;
+    padding-bottom: 50px;
+    font-size: 3em;
+}
+.star{
+    padding: 5px 0 5px 0;
+}
+.customer{
+    display: flex;
+    padding-left: 200px;
+}
+.rating{
+    margin: 10px;
+    border: 3px solid rgb(187, 187, 188);
+    border-radius: 10px;
+    padding: 17px 10px 50px 20px;
+    
+}
+.days{
+    background-color: #EEF1F7;
+    padding: 100px;
+}
+.days h1{
+    padding:10px 10px 20px 350px ;
+    font-size: 3em;
+}
+.days p{
+    padding: 0 10px 50px 520px ;
+}
+.bug{
+    padding-left: 100px;
+}
+.create{
+    padding: 50px 400px 50px 400px;
+}
+.icon, .icoon, .icun{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.icons .ics, .icoon .ics, .icun .ics{
+    padding-top: 40px;
+}
+.icon i{
+    margin-right: 50px;
+    color: rgb(139, 141, 143);
+}
+.icoon i{
+    margin-right: 40px;
+    color: rgb(187, 187, 188);
+}
+.icun i{
+    margin-right: 30px;
+    color: rgb(210, 210, 212);
+}
+.wind{
+    background-color: #EEF1F7;
+    padding: 10px 300px 50px 360px;
+}
+.wind .content{
+    padding-top: 50px;
+}
+.wind .content p{
+   padding:10px 200px 10px 170px;
+}
+.wind .content h1{
+   padding:10px 200px 10px 230px;
+}
+.wind .inti{
+   padding:10px 200px 10px 220px;
+}
+.wind .content .list{
+   padding:20px 200px 10px 230px;
+}
+footer{
+    background-color: #111827;
+    color: white;
+    padding: 70px 100px 70px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+footer h3{
+    padding-bottom: 20px;
+}
+.kid1 h1{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+@media (max-width:1380px){
+   .main{
+    padding-top: 360px;
+   }
+   .container{
+    display: flex;
+    flex-direction: column;
+   }
+   .box{
+    padding-left: 20px;
+   }
+   .box h1, .box p{
+    padding-left: 50px;
+   }
+   .apps{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+   }
+   .mini-box{
+    margin-bottom: 20px;
+    padding: 10px 0 10px 40px;
+    margin-right: 10px;
+   }
+   .page, .page h1{
+    padding-left: 20px;
+   }
+   .cards{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+   }
+   .clovin, .clovin h2, .clovin p, .clovin-pic img{
+    padding-left: 30px;
+   }
+   .clovin p{
+    padding-right: 10px;
+   }
+   .hug, .hug h1, .hug p{
+    padding-left: 20px;
+    padding-right: 10px;
+   }
+   .hug button{
+    margin-left: 30px;
+   }
+   .miss{
+    display: flex;
+    flex-direction: column;
+   }
+   .features h1{
+    padding-left: 300px;
+   }
+   .wind{
+    padding-left: 10px;
+    padding-right: 2px;
+   }
+   .wind .content p{
+   padding:10px;
+}
+  .wind .content h1{
+   padding:10px ;
+}
+.wind .inti{
+   padding:10px;
+}
+.wind .content .list{
+   padding:10px;
+}
+}
+@media (max-width:1310px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+    .features{
+        padding-left: 30px;
+        padding-right: 10px;
+
+    }
+    .features h1{
+        padding-left: 50px;
+    }
+    .mike{
+        padding-left: 10px;
+    }
+    .story{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:1160px){
+    nav{
+    display: flex;
+    flex-direction: column;
+   }
+   nav .tabs{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+   }
+   nav .tabs select{
+    margin-left:0;
+    padding-bottom: 1px;
+   }
+   nav .button{
+    padding-left: 20px;
+   }
+    .solid h1{
+        padding-left: 350px;
+    }
+    .customer{
+        display: flex;
+        flex-direction: column;
+    }
+    .days{
+        padding-left: 20px;
+    }
+    .days h1, .days p{
+        padding-left: 50px;
+    }
+    .bug{
+        padding-left: 20px;
+    }
+    .create{
+        padding-left: 40px;
+    }
+    .create h1{
+        padding-left: 100px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .go{
+        padding-top: 25px;
+    }
+    .go h3{
+        padding-bottom: 8px;
+    }
+}
+@media (max-width:1060px){
+    .container{
+        padding-left: 20px;
+    }
+    .container .pic img{
+        width: 600px;
+        height: 450px;
+    }
+    .platform{
+        display: flex;
+        flex-direction: column;
+    }
+    .story{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .in{
+        display: flex;
+    }
+    .create h1{
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .icon, .icoon, .icun{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-right: 3px;
+    }
+}
+@media (max-width:970px){
+    .imagi img{
+        width: 550px;
+        height: 370px;
+    }
+    .solid h1{
+        padding-left: 250px;
+    }
+}
+@media (max-width:900px){
+    .platform{
+        margin-left:50px ;
+        margin-right:50px ;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    .work .ul{
+        padding-right: 5px;
+    }
+    .webs{
+        padding-left: 10px;
+    }
+    .features h1{
+        padding-left: 10px;
+    }
+    .mike{
+        display: flex;
+        flex-direction: column;
+    }
+    .solid{
+        padding-left: 20px;
+    }
+    .solid h1{
+        padding-left: 30px;
+    }
+    .customer{
+        padding-left: 10px;
+    }
+    .rating{
+        margin-right: 5px;
+    }
+}
+@media (max-width:685px){
+    .story{
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .picture img{
+        width: 350px;
+        height: 300px;
+    }
+}
+@media (max-width:630px){
+    .main .inti input{
+       padding-right: 4px;
+    }
+    .inti{
+        margin-right:10px ;
+    }
+    .fonts .icons{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fonts p{
+        padding-left: 10px;
+    }
+    .imagi img{
+        width: 450px;
+        height: 250px;
+    }
+    .miss .inti input{
+       padding-right: 4px;
+    }
+    .wind .inti input{
+       padding-right: 4px;
+    }
+    footer{
+        padding-left: 30px;
+    }
+    
+}
