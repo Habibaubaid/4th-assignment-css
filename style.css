@@ -450,7 +450,51 @@ footer h3{
     font-size: 20px;
     padding-bottom: 20px;
 }
-@media (max-width:1380px){
+@media (max-width:1385px){
+nav{
+    padding: 10px 5px 10px 10px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+   
+}
+
+.logo, .tabs, .buttton{
+    display: flex;
+}
+ .logo{  
+    padding-right:20px ;
+}
+
+.tabs, .button{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.tabs{
+    padding-left: 160px;
+}
+.tabs a{
+    padding-right: 20px;
+    padding-left: 4px;
+    margin: 9px;
+    padding-top: 10px;
+}
+
+.tabs select{
+    padding-right: 7px;
+    padding: 10px;
+    margin: 9px;
+
+}
+.tabs select:hover{
+    font-size:15px;
+}
+.button{
+    padding-left: 120px;
+}
    .main{
     padding-top: 360px;
    }
